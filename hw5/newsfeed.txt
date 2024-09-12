@@ -1,0 +1,19 @@
+News:
+This is a test News record
+Minsk, 2024-09-12
+--------------------
+
+PrivateAd:
+This is a test Private Ad record
+Actual till: 2024-09-17, days left: 5 days, 0:00:00
+--------------------
+
+Weather Forecast:
+Today the following weather is expected:
+Rainy: false
+Windy: true
+Sunny: true
+Weather rating: 4
+Oslo, 2024-09-12
+--------------------
+
