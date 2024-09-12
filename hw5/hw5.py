@@ -17,7 +17,7 @@ class PrivateAd(Record):
     def __init__(self, text, expiration_date):
         super().__init__(text)
         self.expiration_date = expiration_date
-        self.days_left = expiration_date - date.today()
+        self.days_left = (expiration_date - date.today()).days
 
 
 class WeatherForecast(Record):
@@ -95,8 +95,7 @@ class FileCreator:
 class Main:
     file_creator = FileCreator()
     file_creator.add_record_to_file(RecordCreator().create_record(UserInput().record_type_input()))
-    file_creator.add_record_to_file(RecordCreator().create_record(UserInput().record_type_input()))
-    file_creator.add_record_to_file(RecordCreator().create_record(UserInput().record_type_input()))
+
 
 
 
