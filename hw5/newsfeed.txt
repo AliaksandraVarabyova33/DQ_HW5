@@ -31,3 +31,8 @@ This is a Private Ad test record2
 Actual till: 2024-09-20, days left: 8
 --------------------
 
+News:
+The new star wars movie has been released.
+London, 2024-09-15
+--------------------
+
